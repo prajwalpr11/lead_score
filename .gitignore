@@ -1,0 +1,14 @@
+# in project root
+cat > .gitignore <<EOF
+__pycache__/
+*.py[cod]
+env/
+venv/
+.vscode/
+.idea/
+.DS_Store
+.env
+instance/
+*.pkl
+*.log
+EOF
